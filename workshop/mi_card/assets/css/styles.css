@@ -1,0 +1,442 @@
+/* CSS */ 
+
+body {  
+    text-align: center;  
+}  
+
+#wrapper {  
+    width: 800px;  
+    margin: 0 auto;  
+    text-align: left;  
+}
+
+h1{
+	font-weight: bold;
+	font-size: 45px;
+} 
+
+h2{
+	color: #3261AB;
+	font-weight: bold;
+	border-left: 15px solid #3261AB;
+	font-size: 40px;
+}
+
+h3{
+	background-color: #3261AB;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    padding-left: 20px;
+    line-height: 55px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+h4{
+	padding-left: 10px;
+	font-size: 20px;
+	// border-bottom:1px solid;
+	margin:10px 0 10px 0; 
+	font-weight: lighter;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+select{
+	width: 150px;
+	height: 35px;
+
+}
+
+form{
+	color: #3261AB;
+}
+
+th{
+	background-color: #C9E8F1;
+}
+
+td p{
+	padding-left: 10px;
+}
+
+.inner_block{
+	width:100%;
+	height: 250px; 
+	border-bottom: solid 4px #3261AB;
+}
+.inner_block2{
+	width:100%;
+	height: 120px; 
+	border-bottom: solid 4px #3261AB;
+}
+.inner_block_text{
+	color: blue;
+}
+
+.inner_block_text_2{
+	color: black;
+	font-size: 20px;
+}
+
+.inner_block_number{
+	font-size: 50px;
+	color: #3261AB;
+}
+
+.inner_block_2{
+	float: left;
+}
+.inner_block_3{
+	float: right;
+}
+.inner_block_text span{
+	color: black;
+}
+
+.goukeigaku{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left:30px; 
+}
+
+.goriyou{
+	text-decoration: underline;
+	color: #3261AB;
+}
+
+.split{
+	width: 100%;
+	height: 70px;
+	display:inline-flex;
+	margin:40px 0 40px 0;
+}
+
+.split1{
+	border: 4px solid #3261AB;
+    border-radius: 1em;
+    color: #3261AB;
+    width: 49%;
+    height: 111px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.split1_text{
+    line-height: 30px;
+    text-align: center;
+    font-size: 27px;
+    margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center; 
+    align-items: center; 
+    -webkit-justify-content: center; 
+    justify-content: center;
+}
+
+.split2{
+	border: 4px solid #3261AB;
+    border-radius: 1em;
+    color: #3261AB;
+    width: 49%;
+    height: 111px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.split2_text{
+    line-height: 30px;
+    text-align: center;
+    font-size: 27px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; 
+    -webkit-justify-content: center; 
+    justify-content: center; 
+}
+
+.print{
+	text-align: center;
+    font-size: 34px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.download{
+	line-height: 50px;
+    text-align: center;
+    font-size: 31px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+.notice{
+	border:1px solid black;
+	margin: 20px 0 20px 0;
+	border-radius: 8px;
+}
+
+.notice p{
+	margin: 10px 20px 10px 20px;
+
+}
+
+
+.notice1{
+	border: 1px solid black;
+	margin: 20px 0 20px 0;
+	border-radius: 8px;
+}
+
+.notice1 h4{
+    border:none;
+}
+
+.notice2{
+	width: 80%;
+	height: 200px;
+	border:1px solid;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.notice2 h4{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+  justify-content: center; /* 横方向中央揃え */
+}
+
+.notice2 h4 img{
+	width: 350px;
+	height:65px;
+	margin-bottom: 10px;
+}
+
+.notice2 p{
+	font-size: 20px;
+}
+
+.table{
+	border:1px solid black;
+}
+
+.table th{
+	border-right: 1px solid black;
+}
+
+#table1 th{
+	height: 30px;
+}
+
+#table2 th{
+	height: 50px;
+}
+
+#table3 th{
+	height: 60px;
+	text-align: center;
+}
+
+.first-line{
+	width: 30px;
+}
+
+#table4 th{
+	height: 100px;
+	text-align: center;
+}
+
+#table4 td:first-child{
+	background-color: #C9E8F1;
+}
+
+#table4 td{
+	padding-left: 10px;
+}
+
+.pay{
+	background-color: #C9E8F1
+}
+.center{
+	text-align: right;
+}
+
+.letter{
+	letter-spacing: 
+}
+#table5 th{
+	height: 30px;
+	padding-left: 10px;
+}
+
+#table6{
+	height: 300px;
+}
+
+#table6 td{
+	background-color: #C9E8F1;
+}
+
+#table6 tr :last-child{
+	background-color: #fff;
+}
+
+.table6-td1{
+	width: 30px;
+	border-style: none;
+}
+
+#table7 th{
+	height: 40px;
+	padding-left: 10px;
+}
+
+#table7 td{
+	color: #3261AB;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+#table8 th{
+	height: 40px;
+	width: 300px;
+	padding-left: 10px;
+}
+
+#table8 td,.right{
+	text-align: right;
+}
+
+#table9{
+	margin-bottom: 30px;
+}
+
+#table9 th{
+	height: 35px;
+	padding-left: 10px;
+}
+
+#table10 th{
+	text-align: center;
+	height: 35px;
+}
+
+#table11 th{
+	text-align: center;
+	height: 35px;
+}
+
+#table11 td{
+	height: 35px;
+}
+
+#table12 th{
+	height: 35px;
+	text-align: center;
+}
+
+#table12 td{
+	height: 35px;
+}
+
+#table13{
+	margin-bottom: 30px;
+}
+
+#table13 th{
+	height: 55px;
+	text-align: center;
+}
+
+.money{
+	color: #3261AB;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.amount{
+	width: 20%;
+	padding-right: 10px;
+}
+
+.meisai_table td{
+	border-style: solid dashed;
+}
+
+.data{
+	height: 80px;
+	text-align: center;
+	border-style: solid;
+}
+
+.data2{
+	height: 35px;
+	text-align: center;
+}
+
+.cost{
+	color:#3261AB;
+	font-weight: bold;
+	text-align: right;
+}
+
+.icon{
+	width: 30px;
+	height: 20px;
+	padding-left: 600px;
+}
+
+.adress{
+	background-color: #C9E8F1;
+	padding: 20px;
+}
+
+.adress2{
+	margin-top: 40px;
+	background-color: #C9E8F1;
+	padding: 20px;
+}
+.fa .fa-angle-right{
+	margin-left: 30px;
+}
+
+.target1{
+	display: none;
+}
+.target2{
+	display: none;
+}
+.target3{
+	display: none;
+}
+.target4{
+	display: none;
+}
+.target5{
+	display: none;
+}
+.target6{
+	display: none;
+}
+.target7{
+	display: none;
+}
